@@ -10,7 +10,7 @@ const Cart = (props) => {
 
     return (
         <div className='cart reverse-main'>
-            <h3>Selected Guitars</h3>
+            <h3>Cart Items</h3>
             {
                 cart.map(product => <DisplayCart
                     key={product.id}
@@ -19,9 +19,14 @@ const Cart = (props) => {
             }
             <RandomItem random={random}></RandomItem>
             <div className='cart-btn'>
+                {
+                    cart.length > 1 ? <button onClick={getRandom}>CHOOSE 1 FOR ME</button> : <div></div>
+                }
+                <br />
+                {
+                    cart.length > 0 ? <button onClick={clearCart}>CHOOSE AGAIN</button> : <div></div>
+                }
 
-                <button onClick={getRandom}>Choose 1 For Me</button><br />
-                <button onClick={clearCart}>Choose Again</button>
             </div>
         </div>
     );

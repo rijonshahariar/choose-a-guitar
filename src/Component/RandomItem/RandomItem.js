@@ -5,7 +5,7 @@ import './RandomItem.css'
 const RandomItem = ({ random }) => {
     const { name, picture } = random;
     return (
-        <div>
+        name ? (<div>
             <h4>Random Selection</h4>
             <h4 className='random-info'>
                 <span>
@@ -13,7 +13,8 @@ const RandomItem = ({ random }) => {
                 </span>
                 {name}
             </h4>
-        </div>
+        </div>) : <div></div>
+
     );
 };
 
