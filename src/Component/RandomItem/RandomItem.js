@@ -6,7 +6,7 @@ const RandomItem = ({ random }) => {
     const { name, picture } = random;
     return (
         name ? (<div>
-            <h4>Random Selection</h4>
+            <h3>Best for You</h3>
             <h4 className='random-info'>
                 <span>
                     <img style={{ height: '50px', width: '50px', borderRadius: '50%' }} src={picture} alt="" />

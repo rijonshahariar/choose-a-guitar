@@ -19,13 +19,9 @@ const Cart = (props) => {
             }
             <RandomItem random={random}></RandomItem>
             <div className='cart-btn'>
-                {
-                    cart.length > 1 ? <button onClick={getRandom}>CHOOSE 1 FOR ME</button> : <div></div>
-                }
-                <br />
-                {
-                    cart.length > 0 ? <button onClick={clearCart}>CHOOSE AGAIN</button> : <div></div>
-                }
+                <button onClick={getRandom}>CHOOSE 1 FOR ME</button>
+                <button onClick={clearCart}>CHOOSE AGAIN</button>
+
 
             </div>
         </div>
