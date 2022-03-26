@@ -51,8 +51,16 @@ const Shop = () => {
     };
     // Random item selection
     const getRandom = () => {
-        const random = cart[Math.floor(Math.random() * cart.length)];
-        setRandom(random);
+        if (cart.length === 0) {
+            alert("Choose atleast 2 item to compare")
+            return
+        }
+        else {
+            const random = cart[Math.floor(Math.random() * cart.length)];
+            setRandom(random);
+        }
+
+
     }
 
     return (
