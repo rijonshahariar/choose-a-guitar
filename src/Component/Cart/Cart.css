@@ -1,0 +1,31 @@
+.cart{
+    position: sticky;
+    margin: 0 auto;
+    text-align: center;
+    top: 150px;
+    bottom: 0;
+}
+
+.cart h3{
+    font-size: 23px;
+    color: rgb(77, 72, 72);
+}
+
+.cart-btn button{
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    color: rgb(77, 72, 72);
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid rgba(155, 154, 154, 0.1);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.cart-btn{
+    margin-top: 30px;
+}

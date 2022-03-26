@@ -1,0 +1,86 @@
+[
+    {
+        "id": "623eb9a23e8db81caa212218",
+        "picture": "https://media.guitarcenter.com/is/image/MMGS7/L70780000003000-00-720x720.jpg",
+        "name": "Maple Fingerboard Electric Guitar",
+        "price": "16,650",
+        "rate": "4.5"
+    },
+    {
+        "id": "623eb9a29ecc0db3d38529dc",
+        "picture": "https://media.guitarcenter.com/is/image/MMGS7/L76146000002000-00-720x720.jpg",
+        "name": "Matthew Bellamy Signature Guitar",
+        "price": "65,113",
+        "rate": "4.5"
+    },
+    {
+        "id": "623eb9a2950eabb29d7143e7",
+        "picture": "https://media.guitarcenter.com/is/image/MMGS7/430928000003000-00-720x720.jpg",
+        "name": "Rocketeer Electric Guitar",
+        "price": "12,091",
+        "rate": "4.5"
+    },
+    {
+        "id": "623eb9a266e84a09a0a168d0",
+        "picture": "https://media.guitarcenter.com/is/image/MMGS7/J37213000006000-00-720x720.jpg",
+        "name": "Double-Cutaway Electric Guitar",
+        "price": "20,460",
+        "rate": "4.5"
+    },
+    {
+        "id": "623eb9a2ecdba868286d3ba1",
+        "picture": "https://media.guitarcenter.com/is/image/MMGS7/L75564000002000-00-720x720.jpg",
+        "name": "Ninja X7 Multi-Scale Electric Guitar",
+        "price": "167,436",
+        "rate": "4.5"
+    },
+    {
+        "id": "623eb9a239bb8fc38721d082",
+        "picture": "https://media.guitarcenter.com/is/image/MMGS7/J37222000001000-00-720x720.jpg",
+        "name": "MS400 Modern Electric Guitar",
+        "price": "32,550",
+        "rate": "4.5"
+    },
+    {
+        "id": "623eb9a25b1c853106efa58b",
+        "picture": "https://media.guitarcenter.com/is/image/MMGS7/L30536000001000-00-720x720.jpg",
+        "name": "Fullerton Legacy Electric Guitar",
+        "price": "139,500",
+        "rate": "4.5"
+    },
+    {
+        "id": "623eb9a2ff31fee084195f95",
+        "picture": "https://media.guitarcenter.com/is/image/MMGS7/L70274000001000-00-720x720.jpg",
+        "name": "Mockingbird ST Electric Guitar",
+        "price": "130,227",
+        "rate": "4.5"
+    },
+    {
+        "id": "623eb9a2c226b7a071e161e1",
+        "picture": "https://media.guitarcenter.com/is/image/MMGS7/L83934000004000-00-720x720.jpg",
+        "name": "Gunslinger USA Electric Guitar",
+        "price": "280,000",
+        "rate": "4.5"
+    },
+    {
+        "id": "623eb9a2456440dc23bb8829",
+        "picture": "https://media.guitarcenter.com/is/image/MMGS7/L70862000001000-00-720x720.jpg",
+        "name": "Floyd Rose Electric Guitar",
+        "price": "148,831",
+        "rate": "4.5"
+    },
+    {
+        "id": "623eb9a27bc0e8b11dt43469",
+        "picture": "https://media.guitarcenter.com/is/image/MMGS7/L78621000001000-00-720x720.jpg",
+        "name": "Snake Sabo Electric Guitar",
+        "price": "88,275",
+        "rate": "4.5"
+    },
+    {
+        "id": "623eb9a27bc0e8b11da43469",
+        "picture": "https://media.guitarcenter.com/is/image/MMGS7/L75585000003000-00-720x720.jpg",
+        "name": "Legator Ghost Electric Guitar",
+        "price": "93,019",
+        "rate": "4.5"
+    }
+]
