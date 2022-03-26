@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FiDelete } from 'react-icons/fi';
+import { TiDelete } from 'react-icons/ti';
 import './DisplayCart.css';
 
 const DisplayCart = (props) => {
@@ -13,7 +13,7 @@ const DisplayCart = (props) => {
                     <img style={{ height: '50px', width: '50px', borderRadius: '50%' }} src={picture} alt="" />
                 </span>
                 {name}
-                <FiDelete onClick={() => removeFromCart(id)} className='del-icon' />
+                <TiDelete onClick={() => removeFromCart(id)} className='delete-icon' />
             </h4>
         </div>
     );
