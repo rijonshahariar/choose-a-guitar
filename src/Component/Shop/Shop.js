@@ -7,53 +7,52 @@ const Shop = () => {
     const [random, setRandom] = useState([]);
 
     useEffect(() => {
-        fetch('products.json')
+        fetch('fakeDB.json')
             .then(res => res.json())
             .then(data => setProducts(data));
     }, []);
 
-    /* Cart functionality */
+    // Cart Behaviour Function
     const [cart, setCart] = useState([]);
-    const handleAddToCart = (course) => {
-        const newCourse = [...cart, course];
+    const handleAddToCart = (guitar) => {
+        const newGuitar = [...cart, guitar];
         if (cart.length === 0) {
-            setCart(newCourse);
+            setCart(newGuitar);
         } else {
             const newCart = [...cart];
-            const index = newCart.findIndex((item) => item.id === course.id);
+            const index = newCart.findIndex((item) => item.id === guitar.id);
             if (index === -1) {
-                setCart(newCourse);
+                setCart(newGuitar);
             } else {
-                newCart[index] = course;
+                newCart[index] = guitar;
                 setCart(newCart);
             }
         }
     };
-    // if cart items is greater than 4 then show alert
+    // Maximum 4 items can be added
     if (cart.length > 4) {
-        alert("Slow down! You are going too fast!")
-        const newHeros = [...cart];
-        newHeros.splice(4, 1);
-        setCart(newHeros);
+        alert("You can't add more than 4 guitars in Cart")
+        const newProducts = [...cart];
+        newProducts.splice(4, 1);
+        setCart(newProducts);
     }
 
-    /* Remove individually item from cart */
+    // Remove Products from cart one-by-one
     const removeFromCart = (id) => {
         const newList = cart.filter((item) => item.id !== id);
         setCart(newList);
     };
 
-    /* Remove all item from cart */
+    // Clear the cart
     const clearCart = () => {
         const newList = [];
         setCart(newList);
         setRandom([]);
     };
-    /* Show random items */
-    const chooseRandom = () => {
+    // Random item selection
+    const getRandom = () => {
         const random = cart[Math.floor(Math.random() * cart.length)];
         setRandom(random);
-        // console.log(random)
     }
 
     return (
@@ -66,7 +65,7 @@ const Shop = () => {
             </div>
 
             <div className="cart-container">
-                <Cart cart={cart} removeFromCart={removeFromCart} clearCart={clearCart} chooseRandom={chooseRandom} random={random}></Cart>
+                <Cart cart={cart} removeFromCart={removeFromCart} clearCart={clearCart} getRandom={getRandom} random={random}></Cart>
             </div>
 
         </div>

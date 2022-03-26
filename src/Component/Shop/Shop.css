@@ -1,12 +1,13 @@
 .shop-container{
     display: grid;
+    
     grid-template-columns: 4fr 1fr;
 }
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    margin: 50px 50px;
+    margin: 50px 30px;
 }
 
 .cart-container{
@@ -30,12 +31,4 @@
     .reverse-main{
         order: 1;
     }
-     /* .cart-container{
-        position: sticky;
-        margin: 0 auto;
-        top: 80px;
-        border-left: none;
-        backdrop-filter: blur(15px);
-        width: 85%;
-    }  */
 }

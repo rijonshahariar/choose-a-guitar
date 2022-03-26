@@ -6,11 +6,11 @@ import DisplayCart from '../DisplayCart/DisplayCart';
 
 
 const Cart = (props) => {
-    const { cart, removeFromCart, clearCart, chooseRandom, random } = props;
+    const { cart, removeFromCart, clearCart, getRandom, random } = props;
 
     return (
         <div className='cart reverse-main'>
-            <h3>Selected Products</h3>
+            <h3>Selected Guitars</h3>
             {
                 cart.map(product => <DisplayCart
                     key={product.id}
@@ -19,7 +19,8 @@ const Cart = (props) => {
             }
             <RandomItem random={random}></RandomItem>
             <div className='cart-btn'>
-                <button onClick={chooseRandom}>Choose 1 For Me</button><br />
+
+                <button onClick={getRandom}>Choose 1 For Me</button><br />
                 <button onClick={clearCart}>Choose Again</button>
             </div>
         </div>

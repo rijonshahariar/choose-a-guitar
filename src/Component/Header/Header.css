@@ -1,0 +1,14 @@
+.header{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+    height: 80px;
+    background-color: white;
+    color: rgb(77, 72, 72);
+    border: 2px solid rgba(155, 154, 154, 0.1);
+}
+
+.header:hover{
+    color:orangered
+}
