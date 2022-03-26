@@ -1,11 +1,11 @@
 import React from 'react';
 
 import { FiDelete } from 'react-icons/fi';
-import './DisplayCart.css'
+import './DisplayCart.css';
 
 const DisplayCart = (props) => {
     const { removeFromCart } = props;
-    const { name, picture, id } = props.product;
+    const { name, picture, id } = props.showProducts;
     return (
         <div>
             <h4 className="product-info">

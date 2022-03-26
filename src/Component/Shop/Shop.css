@@ -5,7 +5,7 @@
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
+    gap: 25px;
     margin: 50px 50px;
 }
 
@@ -30,12 +30,12 @@
     .reverse-main{
         order: 1;
     }
-    /* .cart-container{
+     /* .cart-container{
         position: sticky;
         margin: 0 auto;
         top: 80px;
         border-left: none;
         backdrop-filter: blur(15px);
         width: 85%;
-    } */
+    }  */
 }

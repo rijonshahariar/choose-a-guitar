@@ -1,9 +1,10 @@
 .cart{
     position: sticky;
     margin: 0 auto;
-    text-align: center;
-    top: 150px;
-    bottom: 0;
+    top: 80px;
+    border-left: none;
+    backdrop-filter: blur(15px);
+    width: 85%;
 }
 
 .cart h3{
